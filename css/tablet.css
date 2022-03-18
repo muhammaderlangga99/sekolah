@@ -1,0 +1,36 @@
+/* !tablet */
+@media (max-width: 991.98px) {
+  /* body */
+}
+
+/* !ipad pro */
+@media (max-width: 1199.98px) {
+  /* navbar mobile */
+  .nav-mobile {
+    display: none;
+  }
+  
+  /* head */
+  .header {
+    height: 60vh;
+  }
+
+  /* body */
+  .in-body {
+    height: 85vh;
+  }
+
+  .in-body .row {
+    flex-direction: column-reverse;
+  }
+
+  /* visi misi */
+  .goals {
+    height: 85vh;
+  }
+
+  /* news */
+  .news {
+    height: 80vh !important;
+  }
+}

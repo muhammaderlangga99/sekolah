@@ -1,0 +1,65 @@
+html,
+body {
+    position: relative;
+    height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 50%;
+    margin-top: 500px;
+}
+
+.swiper-slide {
+    cursor: grab;
+    overflow: hidden;
+    text-align: center;
+    font-size: 18px;
+    background: hsl(0, 0%, 92%);
+    border-radius: 20px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide:active {
+    cursor: grabbing;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next {
+    /* opacity: 0; */
+    width: 50px !important;
+}
+
+.fa-arrow-circle-right {
+    font-size: 2em;
+}
+
+.fa-arrow-circle-left {
+    font-size: 2em;
+}
+
+.tombol {
+    /* width: 57px; */
+    border-radius: 10px;
+     /* background: rgba(18,22,34, .60);  */
+    margin-top: 10px;
+    margin-left: 30px;
+}

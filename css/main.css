@@ -1,0 +1,240 @@
+:root {
+  --font-belleza: "Belleza", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-play-fair: "Playfair Display", serif;
+  --navy-tua: #11054d;
+  --navy-muda: #151f62;
+  --abu-abu: #787a91;
+  --putih: #eeeeee;
+  --ijo-muda: #80b213;
+  --ijo-tua: #039935;
+  --ungu-muda: #8181f7;
+}
+
+body {
+  height: 200vh;
+  overflow-x: hidden;
+}
+
+.bg-navy {
+  background: var(--navy-muda);
+}
+/* navbar */
+nav {
+  /* height: 80px; */
+  font-family: var(--font-belleza);
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(17px);
+  -webkit-backdrop-filter: blur(17px);
+  z-index: 999999;
+}
+
+.navbar-brand {
+  color: var(--ijo-tua) !important;
+}
+
+nav.shadow-nav {
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  transition: 1s ease all;
+  /* background: var(--ijo-muda); */
+}
+
+.text-biru {
+  color: var(--navy-muda);
+}
+
+nav img {
+  width: 30px;
+  border-radius: 10px;
+}
+
+nav .btn {
+  font-family: var(--font-poppins);
+}
+
+/* end nav */
+/* navbar mobile */
+.nav-mobile {
+  display: none;
+}
+/* end navbar mobile */
+/* header */
+.bg-glass {
+  width: 300px;
+  height: 300px;
+  background: rgba(52, 42, 104, 0.2);
+  z-index: -1;
+  overflow: hidden;
+}
+
+.glass {
+  width: 100%;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.71);
+  /* background: salmon; */
+  overflow-x: hidden !important;
+  backdrop-filter: blur(19.9px);
+  -webkit-backdrop-filter: blur(19.9px);
+  z-index: 99;
+}
+
+.header {
+  font-family: var(--font-poppins);
+}
+
+.img-head {
+  background-image: url(../img/cm-jumbo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+.text-ijo {
+  color: var(--ijo-tua);
+}
+
+.bg-ijo {
+  background: var(--ijo-tua);
+}
+
+/* end head */
+/* body head */
+.body-head {
+  font-family: var(--font-belleza);
+}
+/* end body head */
+/* body */
+.in-body {
+  font-family: var(--font-belleza);
+  height: 100vh;
+}
+
+.in-body img {
+  border-radius: 20px;
+}
+
+.in-body p {
+  font-size: 1.1em;
+}
+
+.scroll {
+  display: inline-block;
+  width: 30px;
+  height: 70px;
+  background: transparent;
+  border: 1px solid var(--ijo-tua);
+  border-radius: 30px;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  margin: auto;
+  background: #11054d;
+  border-radius: 50%;
+  animation: ball 2s infinite alternate ease;
+}
+
+@keyframes ball {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(40px);
+  }
+}
+/* end body */
+/* penjelasan */
+.penjelasan {
+  font-family: var(--font-play-fair);
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.penjelasan p {
+  font-size: 0.9em;
+}
+/* end penjelasan */
+/* .visi misi */
+.goals {
+  font-family: var(--font-play-fair);
+  overflow: hidden !important;
+}
+
+.goals img {
+  width: 450px;
+  border-radius: 20px;
+}
+/* end visi misi */
+/* jurusan */
+.jurusan {
+  font-family: var(--font-belleza);
+}
+/* end jurusan */
+/* news */
+div.news {
+  font-family: var(--font-belleza);
+  height: 120vh;
+}
+
+.news .card {
+  width: 240px;
+  height: 300px;
+  border: none;
+}
+
+.news .img-news {
+  width: 240px;
+  height: 300px;
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.news .img-news img {
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+}
+
+.news p {
+  margin-top: -7px;
+  font-family: var(--font-poppins);
+  font-size: .8em;
+}
+
+.news a {
+  text-decoration: none;
+}
+
+.news .title .bg-navy {
+  width: 15px;
+  height: 15px;
+}
+/* end news */
+footer {
+  margin-top: 70px;
+  font-family: var(--font-belleza);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer img {
+  width: 30px;
+  border-radius: 10px;
+}
+
+.foot-galeri {
+  margin-left: -15px;
+}
+
+/* copyright */
+.copyright p{
+  font-size: small;
+}
